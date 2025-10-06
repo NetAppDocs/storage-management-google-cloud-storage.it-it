@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-viewing-gcp-storage.html 
 keywords: google cloud storage buckets, google cloud storage, google cloud storage working environment, system 
-summary: 'Dopo aver installato un agente Console in Google Cloud, la console NetApp può rilevare automaticamente informazioni sui bucket Google Cloud che risiedono nell"account Google in cui è installato l"agente Console.  Un sistema Google Cloud Storage viene aggiunto alla console NetApp per consentirti di visualizzare queste informazioni.' 
+summary: 'Dopo aver installato un agente Console in Google Cloud, la NetApp Console può rilevare automaticamente informazioni sui bucket Google Cloud che risiedono nell"account Google in cui è installato l"agente Console.  Un sistema Google Cloud Storage viene aggiunto alla NetApp Console per consentirti di visualizzare queste informazioni.' 
 ---
 = Visualizza i tuoi bucket di Google Cloud Storage
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: 'Dopo aver installato un agente Console in Google Cloud, la console Net
 
 
 [role="lead"]
-Dopo aver installato un agente Console in Google Cloud, la console NetApp può rilevare automaticamente informazioni sui bucket di Google Cloud Storage che risiedono nell'account Google in cui è installato l'agente Console.  Un sistema Google Cloud Storage è stato aggiunto alla Console per consentirti di visualizzare queste informazioni.
+Dopo aver installato un agente Console in Google Cloud, la NetApp Console può rilevare automaticamente informazioni sui bucket di Google Cloud Storage che risiedono nell'account Google in cui è installato l'agente Console.  Un sistema Google Cloud Storage è stato aggiunto alla Console per consentirti di visualizzare queste informazioni.
 
-Puoi visualizzare i dettagli sui tuoi bucket Google Cloud Storage, tra cui posizione, stato di accesso, classe di archiviazione, capacità totale e utilizzata e altro ancora.  Questi bucket possono essere utilizzati come destinazioni per le operazioni NetApp Backup and Recovery, NetApp Cloud Tiering o NetApp Copy and Sync.
+Puoi visualizzare i dettagli sui tuoi bucket Google Cloud Storage, tra cui posizione, stato di accesso, classe di archiviazione, capacità totale e utilizzata e altro ancora.  Questi bucket possono essere utilizzati come destinazioni per le operazioni NetApp Backup and Recovery, NetApp Cloud Tiering o NetApp Copy and Sync .
 
 .Passi
 . https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-google.html["Installa un agente Console"^]nell'account Google in cui desideri visualizzare i tuoi bucket di Google Cloud Storage.
-. Dal menu NetApp Console, selezionare *Storage* e quindi *Gestione*.
+. Dal menu NetApp Console , selezionare *Storage* e quindi *Gestione*.
 
 
 Dopo poco dovresti vedere automaticamente un sistema Google Cloud Storage.

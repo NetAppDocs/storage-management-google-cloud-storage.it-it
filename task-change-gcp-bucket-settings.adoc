@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-change-gcp-bucket-settings.html 
 keywords: google cloud storage buckets, google cloud storage, edit buckets, change buckets 
-summary: Quando il tuo sistema Google Cloud Storage è disponibile nella pagina Sistemi, puoi modificare alcune proprietà del bucket direttamente dalla console NetApp . 
+summary: Quando il tuo sistema Google Cloud Storage è disponibile nella pagina Sistemi, puoi modificare alcune proprietà del bucket direttamente dalla NetApp Console. 
 ---
 = Modifica le impostazioni del bucket di Google Cloud Storage
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Quando il tuo sistema Google Cloud Storage è disponibile nella pagina 
 
 
 [role="lead"]
-Quando il tuo sistema Google Cloud Storage è disponibile nella pagina Sistemi, puoi modificare alcune proprietà del bucket direttamente dalla console NetApp .
+Quando il tuo sistema Google Cloud Storage è disponibile nella pagina Sistemi, puoi modificare alcune proprietà del bucket direttamente dalla NetApp Console.
 
 Tieni presente che non puoi modificare il nome del bucket, il progetto Google o le impostazioni di protezione.
 
@@ -25,7 +25,7 @@ Le proprietà del bucket che puoi modificare includono:
 * Modalità di replica turbo: solo se il bucket si trova in una posizione a doppia regione.
 
 
-È possibile modificare queste impostazioni del bucket direttamente dalla console NetApp facendo clic suimage:button-horizontal-more.gif["il pulsante \"Altro\" con tre punti"] e poi *Modifica i dettagli del bucket* per un bucket.
+È possibile modificare queste impostazioni del bucket direttamente dalla NetApp Console facendo clic suimage:button-horizontal-more.gif["il pulsante \"Altro\" con tre punti"] e poi *Modifica i dettagli del bucket* per un bucket.
 
 image:screenshot-edit-gcp-bucket.png["Uno screenshot che mostra come selezionare il pulsante Modifica dettagli bucket per modificare le proprietà del bucket."]
 

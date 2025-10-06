@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-gcp-enable-data-services.html 
 keywords: google buckets, google storage, google cloud storage working environment, google cloud storage buckets, system 
-summary: Quando scopri i bucket di Google Cloud Storage nella console NetApp , puoi utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati. 
+summary: Quando scopri i bucket di Google Cloud Storage nella NetApp Console, puoi utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati. 
 ---
 = Utilizza i servizi dati NetApp con i bucket di Google Cloud Storage
 :hardbreaks:
@@ -14,16 +14,16 @@ summary: Quando scopri i bucket di Google Cloud Storage nella console NetApp , p
 
 
 [role="lead"]
-Quando scopri i bucket di Google Cloud Storage nella console NetApp , puoi utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati.
+Quando scopri i bucket di Google Cloud Storage nella NetApp Console, puoi utilizzare i servizi dati NetApp per il backup, la suddivisione in livelli e la sincronizzazione dei dati.
 
-* Utilizza * NetApp Backup and Recovery* per eseguire il backup dei dati dai tuoi sistemi ONTAP locali e Cloud Volumes ONTAP allo storage di oggetti di Google Cloud.
+* Utilizza * NetApp Backup and Recovery* per eseguire il backup dei dati dai tuoi sistemi ONTAP e Cloud Volumes ONTAP locali allo storage di oggetti di Google Cloud.
 +
 Per iniziare, vai alla pagina Sistemi e trascina un sistema ONTAP o Cloud Volumes ONTAP locale sul tuo sistema Google Cloud Storage.
 
 +
 https://docs.netapp.com/us-en/data-services-backup-recovery/concept-ontap-backup-to-cloud.html["Scopri di più sul backup dei dati ONTAP su Google Cloud Storage"^] .
 
-* Utilizza * NetApp Cloud Tiering* per suddividere in livelli i dati inattivi dai cluster ONTAP locali allo storage di oggetti di Google Cloud.
+* Utilizzare * NetApp Cloud Tiering* per suddividere in livelli i dati inattivi dai cluster ONTAP locali allo storage di oggetti di Google Cloud.
 +
 Per iniziare, vai alla pagina Sistemi e trascina un sistema ONTAP locale sul tuo sistema Google Cloud Storage.
 
