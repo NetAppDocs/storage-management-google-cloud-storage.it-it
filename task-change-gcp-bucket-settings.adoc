@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task-change-gcp-bucket-settings.html 
+keywords: google cloud storage buckets, google cloud storage, edit buckets, change buckets 
+summary: Quando il tuo sistema Google Cloud Storage è disponibile nella pagina Sistemi, puoi modificare alcune proprietà del bucket direttamente dalla console NetApp . 
+---
+= Modifica le impostazioni del bucket di Google Cloud Storage
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Quando il tuo sistema Google Cloud Storage è disponibile nella pagina Sistemi, puoi modificare alcune proprietà del bucket direttamente dalla console NetApp .
+
+Tieni presente che non puoi modificare il nome del bucket, il progetto Google o le impostazioni di protezione.
+
+Le proprietà del bucket che puoi modificare includono:
+
+* Classe di archiviazione per tutti gli oggetti futuri nel bucket.
+* Puoi scegliere di aggiungere, modificare e rimuovere le etichette dagli oggetti nel bucket.
+* Modalità di replica turbo: solo se il bucket si trova in una posizione a doppia regione.
+
+
+È possibile modificare queste impostazioni del bucket direttamente dalla console NetApp facendo clic suimage:button-horizontal-more.gif["il pulsante \"Altro\" con tre punti"] e poi *Modifica i dettagli del bucket* per un bucket.
+
+image:screenshot-edit-gcp-bucket.png["Uno screenshot che mostra come selezionare il pulsante Modifica dettagli bucket per modificare le proprietà del bucket."]
+
+
+
+== Cambia la classe di archiviazione
+
+La sezione Classe di archiviazione consente di apportare solo alcune modifiche:
+
+* Se al momento della creazione del bucket è stata selezionata la classe _Autoclass_, è possibile disabilitare la classe Autoclass e selezionare un'altra classe di archiviazione.
+* Se al momento della creazione del bucket è stata selezionata un'altra classe di archiviazione, è possibile passare a qualsiasi altra classe di archiviazione, ad eccezione di _Autoclass_.
+
+
+Gli oggetti che si trovavano in una classe diversa rimarranno in quella classe, ma tutti i nuovi oggetti utilizzeranno la nuova impostazione di classe.
+
+
+
+== Aggiungi o modifica le etichette per gli oggetti nel bucket
+
+Le etichette sono metadati che puoi utilizzare per raggruppare le risorse e identificare applicazioni, ambienti, regioni, provider cloud e altro ancora.  Le etichette sono composte da una chiave e un valore.  È possibile aggiungere etichette a un bucket in modo che vengano applicate agli oggetti quando vengono aggiunti al bucket.  È anche possibile modificare ed eliminare etichette e valori delle etichette.
+
+Dopo aver aggiunto o modificato un'etichetta, fare clic su *Applica* per salvare le modifiche.  Se vuoi aggiungere altre etichette, clicca su *Aggiungi nuova etichetta*.  È possibile aggiungere fino a 10 etichette per bucket.
+
+
+
+== Modifica se la replica turbo è abilitata nelle posizioni a doppia regione
+
+Se il bucket si trova in una posizione a doppia regione, è possibile abilitare o disabilitare l'abilitazione o la disabilitazione della modalità di replica turbo.  La "replica turbo" consente di garantire la ridondanza geografica per tutti gli oggetti appena scritti entro un tempo limite di 15 minuti.
+
+Dopo la creazione del bucket, non è possibile modificare altri dettagli sulla posizione.

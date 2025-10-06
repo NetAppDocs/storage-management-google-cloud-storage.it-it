@@ -1,0 +1,39 @@
+---
+settings:
+  name: Google Cloud Storage
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: it-it,us-en,de-de,es-es,fr-fr,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Documentazione di Google Cloud Storage
+    url: "/index.html"
+  - title: Note di rilascio
+    url: "/whats-new.html"
+  - title: Iniziare
+    entries:
+    - title: Visualizza i tuoi bucket di Google Cloud Storage
+      url: "/task-viewing-gcp-storage.html"
+  - title: Gestisci i bucket di Google Cloud Storage
+    entries:
+    - title: Aggiungi nuovi bucket
+      url: "/task-add-gcp-bucket.html"
+    - title: Modifica le impostazioni del bucket
+      url: "/task-change-gcp-bucket-settings.html"
+    - title: Utilizza i servizi dati NetApp con i bucket di Google Cloud Storage
+      url: "/task-gcp-enable-data-services.html"
+  - title: Conoscenza e supporto
+    entries:
+    - title: Registrati per ricevere supporto
+      url: "/task-support-registration.html"
+    - title: Ottieni aiuto
+      url: "/task-get-help.html"
+  - title: Note legali
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family
